@@ -1,0 +1,33 @@
+{
+  "name": "event-booster",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-4-hw-18/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rostyslav-afk/Event-Booster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rostyslav-afk/Event-Booster/issues"
+  },
+  "homepage": "https://github.com/Rostyslav-afk/Event-Booster#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.3",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.16.3",
+    "json-server": "^1.0.0-beta.3",
+    "sass": "^1.97.0"
+  }
+}
