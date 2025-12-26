@@ -46,4 +46,78 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 30px;
+  outline: 1px solid red;
+}
+
+body {
+  background-image: url(../images/bodybg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cards__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+  justify-content: center;
+}
+.cards__item {
+  width: 196px;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards__img {
+  width: 180px;
+  height: 227px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cards__item-contentb {
+  margin-top: 8px;
+  text-align: center;
+}
+.cards__title {
+  color: #dc56c5;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.cards__subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cards__text {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.cards__svg {
+  width: 7px;
+  height: 10px;
+  fill: #fff;
 }/*# sourceMappingURL=main.css.map */
