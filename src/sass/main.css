@@ -62,6 +62,9 @@ body {
   background-position: center;
 }
 
+.cards {
+  padding-top: 133px;
+}
 .cards__list {
   display: flex;
   flex-wrap: wrap;
@@ -120,4 +123,8 @@ body {
   width: 7px;
   height: 10px;
   fill: #fff;
+}
+
+p footer {
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */

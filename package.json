@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-4-hw-18/",
+    "build": "parcel build src/index.html --public-url /event-booster/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
